@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: #eee;
+  padding: 20px 0px;
+  border-radius: 6px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+
+.comment-box {
+  padding-left: 40px;
+  border-left: 4px solid black;
+}
+
+.author-timestamp {
+  margin-bottom: 15px;
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.comment-body {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.plus-btn {
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+
+.comment-links {
+  display: flex;
+  gap: 15px;
+}
+
+.comment-links a {
+  text-decoration: none;
+  color: black;
+}
